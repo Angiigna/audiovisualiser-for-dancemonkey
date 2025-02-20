@@ -34,6 +34,9 @@
     }  
    }
   audio.onplay = () => {
+    if (audioCtx.state === "suspended") {
+      audioCtx.resume();
+    }
     draw();
   };
 })();
