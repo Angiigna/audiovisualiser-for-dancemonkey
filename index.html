@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Audio Visualiser</title>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+  </head>
+  <body>
+    <div class="music">
+      <div id="music-player">
+        <nav>
+          <div class="circle">
+            <i class='bx bx-chevron-left'></i>
+          </div>
+          <div class="circle">
+            <i class='bx bx-menu' ></i>
+          </div>
+        </nav>
+        <img src="/Dance-Monkey-English-2020-20200221154211-500x500.jpg" class="thumbnail">
+        <audio src="/Tones and I - Dance Monkey (Lyrics).mp3" controls>
+        </audio>
+      </div>
+    </div>
+    <div class="visualiser">
+      <canvas id="canvas"></canvas>
+    </div>
+    <script src="/index.js"></script>
+  </body>
+</html>

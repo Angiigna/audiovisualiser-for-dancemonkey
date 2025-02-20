@@ -1,0 +1,59 @@
+:root{
+  --bg--color: #121212;
+  --main--color: #FFB5C0;
+  --white--color: #fff;
+}
+*{
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 2%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  background: var(--bg--color);
+  color: var(--white--color);
+}
+.music{
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+#music-player{
+  background: var(--main--color);
+  width: 400px;
+  padding: 25px 35px;
+  text-align: center;
+  display: block;
+}
+#canvas{
+  width: 90%;
+  display: block;
+  height: 500px;
+}
+#music-player nav{
+  background: var(--main--color);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+nav .circle{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  box-shadow: 0 5px 10px #000;
+}
+.thumbnail{
+  width: 300px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  box-shadow: 0 10px 60px rgba(255, 26, 26, 0.22);
+}
+audio{
+  background: #fff;
+  border-radius: 50%;
+}
